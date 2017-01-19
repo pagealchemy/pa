@@ -1,6 +1,5 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin:0;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -55,7 +54,7 @@ ul.posts li {
 }
 
 .inner {
-    margin-left: auto;
-    margin-right: auto; 
+    margin:0 auto;
+    display:block;
     max-width: 600px;
 }
