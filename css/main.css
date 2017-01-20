@@ -1970,7 +1970,7 @@
 		@media screen and (max-width: 980px) {
 
 			#header {
-				height: auto;
+			      /* height: auto; */
 				min-height: 0;
 			}
 
