@@ -1,3 +1,10 @@
+function isMobile() {
+return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
+if (!isMobile()) {
+
+
 var ballCount = 50,
     ballMinSize = 4, 
     ballMaxSize = 10,
@@ -62,3 +69,5 @@ function moveBallsIntoBounds() {
     if (y+size > maxY) ball.css({ top: maxY-size+'px' });;    
   });
 }
+
+    }
