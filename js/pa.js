@@ -1,7 +1,7 @@
 var ballCount = 50,
     ballMinSize = 4, 
     ballMaxSize = 10,
-    container = $('.outer');
+    container = $('#top');
 $(function() {
   initBalls();
   balls = window.setInterval(moveBalls,40); // 24 FPS
