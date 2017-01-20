@@ -1,10 +1,7 @@
-function isMobile() {
-return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+if (Modernizr.touch) {
 }
-
-if (!isMobile()) {
-
-
+else 
+{
 var ballCount = 50,
     ballMinSize = 4, 
     ballMaxSize = 10,
