@@ -2231,8 +2231,8 @@ section#one {
     min-height: 35em;
 }
 
-#one a {color:#222;}
-#one h2 {padding:0 30px;}
+#contact a {color:#222;}
+#contact h2 {padding:0 30px;}
 
 footer {display:none;}
 html {overflow:hidden; height:100%;}
