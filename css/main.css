@@ -2250,7 +2250,7 @@ b {border-radius:50%;}
     color: #fff;
     text-transform: uppercase;
     border: none;
-    box-shadow: 0 2px 3px rgba(0,0,0,0.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
 .learn:hover {
